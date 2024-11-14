@@ -9,6 +9,10 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  text-align: center;
+}
+
 .card-white {
   background-color: white;
   padding: 40px;
