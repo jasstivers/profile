@@ -10,23 +10,16 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%; /* 容器宽度充满屏幕 */
-  padding: 0 20px; /* 在屏幕小于1000px时添加内边距 */
+  width: 700px;
+  margin: 0 auto;
 }
-
-/* .card-white 设置自动上下居中，并且确保最大宽度 */
 .card-white {
-  margin: 20px auto; /* 上下有间距，左右自动居中 */
-  max-width: 800px; /* 设置最大宽度 */
-  width: 100%; /* 确保宽度不会超过最大值 */
-  padding: 40px;
   background-color: white;
+  padding: 40px;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  margin: 20px;
+  max-width: 800px;
   text-align: center;
   transition: transform 0.3s ease;
 }
