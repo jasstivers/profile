@@ -1,2 +1,2 @@
-## Live Demos
+## Live Demo
 https://jasstivers.github.io/profile/
